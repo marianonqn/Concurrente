@@ -23,7 +23,7 @@ public class Atleta implements Runnable {
             
             Random r = new Random(System.currentTimeMillis()); // tiempo en el que empieza a correr
 
-            Thread.sleep(r.nextInt(10000)); // tiempo en hacer su carrera
+            Thread.sleep(r.nextInt(9000) + 2000); // tiempo en hacer su carrera
 
             System.out.println("El atleta " + Thread.currentThread().getName() + " termina de correr y entrega testigo");
             
