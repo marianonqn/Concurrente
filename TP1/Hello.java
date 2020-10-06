@@ -1,4 +1,4 @@
-package TP;
+package TP1;
 
 public class Hello {
 

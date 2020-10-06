@@ -1,4 +1,0 @@
-a) La ejecucion del programa nos retorna siempre que los puntos de vida son siempre 10, nos haya pegado el orco o el curandero.
-b) La conclusion que sacamos es que el acceso al area compartida por parte de los hilos, en este caso al no ser excluyente, se manipulan los puntos de vida sin restricciones y
-la respuesta de cada hilo es erronea. 
-c)
