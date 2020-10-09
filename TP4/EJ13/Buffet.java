@@ -5,10 +5,10 @@ import java.util.concurrent.Semaphore;
 
 public class Buffet {
 
-    private Semaphore comida = new Semaphore(0); // variable para el manejo de interacciones con la comida del empleado
-    private Semaphore ordenMenu = new Semaphore(0); // variable para el manejo de interacciones con la orden del menu del empleado
-    private Semaphore atencionMozo = new Semaphore(1); // variable para adquirir/bloquear atencion de mozo
-    private Semaphore silla = new Semaphore(1); // variable para adquirir/bloquear uso de la silla del buffet
+    private Semaphore comida = new Semaphore(0,true); // variable para el manejo de interacciones con la comida del empleado
+    private Semaphore ordenMenu = new Semaphore(0,true); // variable para el manejo de interacciones con la orden del menu del empleado
+    private Semaphore atencionMozo = new Semaphore(1,true); // variable para adquirir/bloquear atencion de mozo
+    private Semaphore silla = new Semaphore(1,true); // variable para adquirir/bloquear uso de la silla del buffet
     private String[] menu = {"Opcion 1", "Opcion 2", "Opcion 3", "Opcion 4"}; // opciones de menu para seleccion del empleado
 
     //metodo para retornar el menu 
