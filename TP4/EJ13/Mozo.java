@@ -11,11 +11,9 @@ public class Mozo implements Runnable {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
-
-        this.buffet.tomarOrden();
-        this.buffet.llevarComida();
-        this.buffet.dejarServir();
+        
+       while(true) {
+           this.buffet.atencionBuffet();
+       }
     }
-    
 }
