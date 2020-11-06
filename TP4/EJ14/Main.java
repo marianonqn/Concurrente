@@ -10,10 +10,13 @@ public class Main {
 
         Thread mozoBuffet = new Thread(new Mozo(buffetEmpleados), "Pepe");
 
+        Thread cocineroBuffet = new Thread(new Cocinero(buffetEmpleados), "Carlos");
+
         mozoBuffet.start();
+        cocineroBuffet.start();
 
         for (int i = 0; i < empleados.length; i++) {
-            empleados[i] = new Thread(new Empleado(buffetEmpleados), "Empleado"+i);
+            empleados[i] = new Thread(new Empleado(buffetEmpleados), "Empleado "+i);
             empleados[i].start();
         }
         
