@@ -1,5 +1,7 @@
 package TP6.EJ1;
 
+import java.util.Random;
+
 public class Agente implements Runnable {
 
     private SalaFumadores sala;

@@ -1,4 +1,4 @@
-package DEL_PIN.Leg_50429.EJ1;
+package Parcial_1.EJ1;
 
 public class Main {
 
