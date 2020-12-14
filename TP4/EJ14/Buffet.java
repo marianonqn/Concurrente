@@ -21,8 +21,6 @@ public class Buffet {
     private String[] menuBebida = { "Agua", "Agua sin gas", "Gaseosa", "Bebida" }; // opciones de menu de bebidas para seleccion del empleado
     
     private int sillasDisponibles = 2;
-    private int minimo = 1000;
-    private int maximo = 5000;
 
     // metodo para retornar el menu
 

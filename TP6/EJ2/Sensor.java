@@ -1,7 +1,5 @@
 package TP6.EJ2;
 
-import java.security.Principal;
-
 public class Sensor implements Runnable {
 
     private int temperaturaRegistrada;
